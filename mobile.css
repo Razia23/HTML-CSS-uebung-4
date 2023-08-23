@@ -1,0 +1,51 @@
+
+
+/****hier ist mein mobile datei mit mediaquery
+und ich habe max-width 799px gemacht,weil mein desktop
+hat min-width 800px.****/
+/**und habe ich auch display flex,flex wrap space 
+around um die elemente uneten geht ,wenn ich die seite
+kleine machen möchte.**/
+@media screen and (max-width:799px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+/********/
+    main .conic {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: auto;
+        background-image: conic-gradient(rgba(0, 255, 255, 0.426), rgba(120, 189, 216, 0.442), white, rgba(238, 130, 238, 0.526), white, rgba(72, 72, 249, 0.464), rgba(135, 207, 235, 0.464), white, rgba(253, 203, 253, 0.521));
+    }
+/********/
+    main .radial {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: auto;
+        background-image: radial-gradient(rgba(255, 192, 203, 0.764), white, rgba(238, 130, 238, 0.842), rgba(255, 0, 187, 0.715));
+    }
+/********/
+    main .linear {
+        background-image: linear-gradient(to left, rgba(238, 130, 238, 0.638), rgba(255, 255, 255, 0.666), rgba(135, 207, 235, 0.766));
+        overflow: auto;
+    }
+/********/
+    main .conic2 {
+        background-image: linear-gradient(to left, rgba(238, 130, 238, 0.638), rgba(255, 255, 255, 0.666), rgba(135, 207, 235, 0.766));
+        overflow: auto;
+    }
+/********/
+    main .radial2 {
+        overflow: hidden;
+        background-image: radial-gradient(rgba(255, 192, 203, 0.764), white, rgba(238, 130, 238, 0.842), rgba(255, 0, 187, 0.715));
+    }
+/********/
+    footer .disclaimer {
+        max-height: 200px;
+        overflow: auto;
+    }
+}

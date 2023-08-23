@@ -1,0 +1,55 @@
+
+/********/
+/********/
+@media screen and (min-width:800px) {
+    main {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+/********/
+    main .conic {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: auto;
+        grid-column-end: span 2;
+        grid-row-end: span 2;
+        background-image: conic-gradient(rgba(0, 255, 255, 0.426), rgba(120, 189, 216, 0.442), white, rgba(238, 130, 238, 0.526), white, rgba(72, 72, 249, 0.464), rgba(135, 207, 235, 0.464), white, rgba(253, 203, 253, 0.521));
+    }
+/********/
+    main .radial {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: auto;
+        grid-row-end: span 2;
+        background-image: radial-gradient(rgba(255, 192, 203, 0.764), white, rgba(238, 130, 238, 0.842), rgba(255, 0, 187, 0.715));
+    }
+/********/
+    main .linear {
+        background-image: linear-gradient(to left, rgba(238, 130, 238, 0.638), rgba(255, 255, 255, 0.666), rgba(135, 207, 235, 0.766));
+    }
+/********/
+    main .conic2 {
+        background-image: conic-gradient(rgba(0, 255, 255, 0.426), rgba(120, 189, 216, 0.442), white, rgba(238, 130, 238, 0.526), white, rgba(72, 72, 249, 0.464), rgba(135, 207, 235, 0.464), white, rgba(253, 203, 253, 0.521));
+    overflow: auto;
+    }
+    /********/
+    main .radial2 {
+        overflow: hidden;
+        background-image: radial-gradient(rgba(255, 192, 203, 0.764), white, rgba(238, 130, 238, 0.842), rgba(255, 0, 187, 0.715));
+    }
+    /********/
+    footer .disclaimer{
+        max-height: 200px;
+        overflow: auto;
+    }
+    main .conic .img:hover{ 
+                 /* Es ist 350% in der Breite */
+        width: 350%;
+        /* Standartfilter */
+        filter: sepia(2);
+        /* Wechseleffekt auf 0,75 Sekunden setzen */
+        transition: 0.75s;
+            }
+}

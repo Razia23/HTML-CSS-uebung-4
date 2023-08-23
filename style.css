@@ -1,0 +1,85 @@
+
+/********/
+/********/
+body{
+    background-image: url("https://www.reiseuhu.de/wp-content/uploads/2018/04/urlaub.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    background-size: cover;
+}
+/********/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(225, 203, 245, 0.884);
+    border-radius: 20px;
+}
+/********/
+header img{
+    padding-left: 0px;
+    padding-right: 40%;
+}
+/********/
+header div ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+header div ul li{
+    padding: 10px;
+}
+/********/
+header div ul li a{
+    text-decoration: none;
+    justify-content: space-around;
+}
+/********/
+main{
+    background-color: rgba(196, 185, 250, 0.349);
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    color:darkblue;
+}
+/********/
+/********/
+main div{
+    background-color: rgba(58, 38, 233, 0.447);
+box-shadow: 0px 0px 10px black;
+min-width: 100px;
+min-height: 100px;
+padding: 10px;
+margin: 10px;
+border-radius: 20px;
+}
+/********/
+main img{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 0px 0px 10px blue;
+}
+/********/
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(137, 43, 226, 0.436);
+    border-radius: 20px;
+    color: cornsilk;
+}
+/********/
+footer div{
+    padding: 15px;
+    margin: 20px;
+}
